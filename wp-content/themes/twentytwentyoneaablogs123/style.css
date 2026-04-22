@@ -1,0 +1,44 @@
+.blogList p{margin-bottom:20px;}
+.blogList ul{padding-left:0px; margin-bottom:20px;}
+/*.blogList ul li{list-style:disc;}*/
+.commentsList ul li{list-style:none;}
+
+.download-btn
+{
+  width: 215px;
+  height: 68px;
+  display: inline-block; background: url(images/rectangle-button.gif)  no-repeat center -15px;
+  color: #fff!important;
+  text-decoration:none;
+  font-family:'gooddogregular';
+  font-size: 26px !important;
+  font-weight: normal!important;
+  line-height: 50px;
+  text-align:center;}
+.download-btn a,a:hover { text-decoration: none!important; }
+ .download-btn:hover
+ {
+   text-decoration:none!important;
+   color:#fff !important;
+    background-position:0 -85px;
+  }
+ul.sub-ul-blog-content {
+    margin-bottom: 0px !important;
+    line-height: 1.4;
+}
+.sub-ol-blog-content {
+    padding-left: 40px !important;
+    margin-bottom: 20px !important;
+}
+.sub-ol-blog-content li {
+    list-style: lower-latin !important;
+    line-height: 1.6;
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+.sub-ol-blog-content li::before {
+    display: none !important;
+}
+.blogList .blogDetail ul li::before {
+    padding-top: 13px;
+}
